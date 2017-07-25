@@ -21,6 +21,7 @@ class NewMap: NSObject {
     init(with name: String, type: String) {
         self.name = name
         self.type = type
+        print("Map initialized with Name: \(name) Type: \(type)")
     }
 
 }
