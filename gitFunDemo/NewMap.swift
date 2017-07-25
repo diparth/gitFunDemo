@@ -23,5 +23,9 @@ class NewMap: NSObject {
         self.type = type
         print("Map initialized with Name: \(name) Type: \(type)")
     }
-
+    
+    func sayHello(to: String) {
+        print("Hello, \(to)!")
+    }
+    
 }
