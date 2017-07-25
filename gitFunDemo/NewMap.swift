@@ -13,6 +13,11 @@ class NewMap: NSObject {
     var name: String?
     var type: String?
     
+    override init() {
+        self.name = ""
+        self.type = ""
+    }
+    
     init(with name: String, type: String) {
         self.name = name
         self.type = type
