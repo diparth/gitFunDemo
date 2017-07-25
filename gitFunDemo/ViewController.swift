@@ -22,6 +22,7 @@ class ViewController: UIViewController {
     
     @IBAction func btnPressed(_ sender: UIButton) {
         self.myLabel.text = "Hello Nick!"
+        print("Its good to work with Git.")
         
     }
 
